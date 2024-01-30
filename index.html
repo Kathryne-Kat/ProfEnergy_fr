@@ -3,17 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DneprStroy</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    <title>ProfEnergy</title>
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
@@ -22,6 +13,111 @@
     />
   </head>
   <body>
+    <header class="header section">
+      <div class="container-h">
+          <div class="header-container row">
+            <div class="header-logo logo"><a href="/"><img src="/img/logo.svg" alt="logo"></a></div>
+            <nav class="header-menu">
+              <ul class="header-menu-list row">
+                <li><a href="/">Главная</a></li>
+                <li><a href="#">Продукти</a></li>
+                <li><a href="#">Послуги</a></li>
+                <li><a href="#">Про нас</a></li>              
+                <li><a href="#">Об'єкти</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Відгуки</a></li>
+              </ul>
+            </nav>
+            <div class="header-bottom-leng row">          
+              <select class="select" name="language" aria-label="select">
+                <option value="UA" disabled selected>UA</option>
+                <!-- <option value="UA">UA</option> -->
+                <option value="RU">RU</option>
+                <option value="EN">EN</option>
+              </select>
+              <img class="btn-leng" src="img/icon/leng_icon.svg" alt="leng" />
+            </div>
+            <div class="menu-button row">            
+              <button class="menu-btn-1 btn popup-open" type="button">
+                Залишити заявку
+              </button>
+              <button class="menu-btn btn popup-open" type="button">
+                Контакти
+              </button>
+            </div>
+            <div class="header-burger">
+              <!-- <img src="./img/icon/burger.svg" alt="меню" /> -->
+            </div>
+          </div>       
+      </div>
+    </header>
+
+    <div class="container-h">
+      <section class="hero section">
+        <div class="hero-container">
+         
+          <h1 class="hero-title">
+            Будівництво сонячних станцій
+          </h1>
+          <h3 class="hero-subtitle">
+            Повний цикл робіт - від green field до передачі замовнику ключів
+          </h3>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <img
+                class="hero-item-img"
+                src="./img/icon/ClipboardText.svg"
+                alt="icon"
+              />
+              Гарантія на всі роботи, якісне післягарантійне обслуговування
+            </li>
+            <li class="hero-item">
+              <img class="hero-item-img" src="./img/icon/CalendarCheck.svg" alt="icon" />
+              Роботи виконуться в чіткі строки та бюджет
+            </li>
+            <li class="hero-item">
+              <img
+                class="hero-item-img"
+                src="./img/icon/Student.svg"
+                alt="icon"
+              />
+              Команда сертифікованих експертів
+            </li>
+            <li class="hero-item">
+              <img
+                class="hero-item-img"
+                src="./img/icon/ShieldCheck.svg"
+                alt="icon"
+              />
+              Звітність на кожному етапі
+            </li>
+          </ul>
+          <div class="hero-form">
+            <a href="#" class="about-s-btn btn">Детальніше <img class="hero-btn-img" src="./img/icon/ArrowLineUpRight.svg" alt=""></a> 
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container"> 
+      <section class="about-s section">
+        <div class="about-s-container">
+         <img class="about-s-img" src="./img/solar-panels-meadow 1.jpg" alt="photo">
+         <div class="about-s-desc">
+          <h2 class="about-s-title">
+            Про компанію
+          </h2>
+          <p class="about-s-text">
+            Наш підхід до справи – це не просто встановлення сонячних панелей та проведення електромонтажних робіт. Ми створюємо атмосферу, де кожен елемент працює на користь вашого комфорту та безпеки. З ProfEnergy, ваше підприємство стає енергетичним оазисом, наповненим затишком та теплом.
+          </p>
+          <br><br>
+          <p class="about-s-text">
+            Наша команда вірить у те, що довіра - це основа будь-якого успішного партнерства. Ми розраховуємо на вашу довіру в кожному етапі проєкту - від консультації та проєктування до встановлення та обслуговування. Ми вкладаємо свій досвід і відданість у кожен проєкт, роблячи його надійним та ефективним.
+          </p>
+          <a href="#" class="about-s-btn btn">Детальніше <img class="hero-btn-img" src="./img/icon/ArrowLineUpRight.svg" alt=""></a>          
+         </div>  
+      </section>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script type="module" src="./js/script.js"></script>
   </body>
