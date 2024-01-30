@@ -51,10 +51,11 @@
     display: none;
   }
   .section-title {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 150%; /* 54px */
+    font-family: Unbounded;
     text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 36px;
   }
   .section-text {
     font-size: 16px;
@@ -69,35 +70,47 @@
     margin-bottom: 16px;
   }
   .title-item {
+    color: var(--secondary-text-color);
+    font-family: Unbounded;
     font-size: 24px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 36px */
+    line-height: 150%; /* 48px */
   }
   .text-item {
-    line-height: 150%; /* 24px */
+    line-height: 150%; 
   }
   .section-list {
     display: flex;
-    gap: 14px;
+    gap: 21px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .section-item {
-    max-width: 584px;
-    width: 100%;
+  .section-item {    
+    width: 32%;
     padding: 24px;
-    border-radius: 35px;
+    border-radius: 33px;
     background: var(--accent-color-d);
   }
+
   .btn {
-    font-family: Unbounded;
-    padding: 16px 36px;
+    font-family: Unbounded;   
     color: var(--primary-text-color);  
     font-weight: 500;
     border-radius: 64px;
     border: none;
     background: var(--btn-color);
+    display: flex;
+
+    padding: 24px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
   }
+  .btn-icon{
+    width: 24px;
+ }
   /*-------------------HEADER----------------*/
   .header{
     margin-top: 16px;   
@@ -117,8 +130,12 @@
   .logo a{
     width: 160px;
   }
-  .header-menu-list{
-    gap: 74px;
+  .header-menu{
+width: 50%;
+  }
+  .header-menu-list{   
+    justify-content: space-around;
+    /* gap: 74px; */
   }
   .header-menu ul li a {
     color: var(--primary-text-color);
@@ -144,6 +161,10 @@ gap: 8px;
   .menu-btn-1{
     border: 1px solid var(--primary-text-color);
     background-color: transparent;
+    padding: 16px 36px;
+  }
+  .menu-btn-2{
+    padding: 16px 36px;
   }
   .header-burger {
     display: none;
@@ -215,17 +236,13 @@ gap: 8px;
     background: rgba(255, 255, 255, 0.19);
     backdrop-filter: blur(9.449999809265137px);
   }
- .hero-item-img{
+  .hero-item-icon{
     width: 42px;
  }
-  .hero-btn {    
-    display: flex;
-    gap: 10px;
-    align-items: flex-end;
-    color: var(--primary-text-color);
-    font-weight: 500;
-     padding: 20px 64px 24px 64px; 
-     border:none;
+ .hero-form{
+display: block;
+ }
+  .hero-btn {  
   }
   .hero-btn-img {  
     display: inline;      
@@ -264,5 +281,103 @@ padding: 24px 64px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-
 }
+/*-------------------PRODUCT----------------*/
+.products-s-title {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .products-s-list{
+  }
+  .products-s-item{
+    width: 49%;
+    padding: 24px 36px;
+  } 
+  .products-s-btn {
+    background: var(--primary-color);
+    text-decoration: underline; 
+    padding: 14px 24px;
+    width: 100%; 
+    justify-content: space-between; 
+    white-space:nowrap;
+  }
+  .products-s-btn-1{
+    /* gap: 18px; */
+    margin-bottom: 16px;
+  }
+  .products-s-item-img {
+    border-radius: 24px;
+    margin-bottom: 30px;
+  }
+  .products-s-item-img-wrap{
+position: relative;
+  }
+  .products-s-item-title {
+    position: absolute;
+    bottom:16px;
+    left: 24px; 
+    font-size: 32px;  
+  }
+  .products-s-item-descr {
+    /* max-width: 420px;
+    width: 100%; */
+    margin-left: 40px;
+  }
+  .products-s-item-img {    
+    width: 100%;
+  }
+  /*-------------------services----------------*/
+.products-s-title {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .products-s-list{
+  }
+  .products-s-item{
+    width: 49%;
+    padding: 24px 36px;
+  } 
+  .services-s-item-img {
+    border-radius: 27px;
+    margin-bottom: 24px;
+  }
+  .services-s-btn{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .services-s-btn-icon{
+    width: 36px;
+  }
+  .services-s-item-img-wrap{
+position: relative;
+  }
+  .services-s-item-title-wrap{
+    position: absolute;
+    bottom:16px;
+    left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24px;
+  }
+  .services-s-item-title {
+
+      
+  }
+  .products-s-item-descr {
+    /* max-width: 420px;
+    width: 100%; */
+    margin-left: 40px;
+  }
+  .services-s-item-img {    
+    width: 100%;
+  }
+
+
+  .unicity-s{
+    border-radius: 36px;
+background: var(--accent-color-l);
+
+  }
