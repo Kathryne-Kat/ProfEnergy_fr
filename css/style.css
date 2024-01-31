@@ -426,6 +426,7 @@ position: relative;
   .stages-s-icon{   
     margin: 0 auto;
     margin-bottom: 16px;
+    width: 80%;
   }
   .stages-s-icon2{
     margin-top: 56px;
@@ -563,28 +564,11 @@ font-size: 18px;
 font-weight: 700;
   }
 
-/*-------------------FORM----------------*/
+/*-------------------reviews----------------*/
 
-.reviews-s {
-}
-.section {
-}
-.reviews-s-title {
-}
-.section-title {
-}
-.reviews-s-list {
-}
-.section-list {
-}
 .reviews-s-item {
   padding: 36px;
-  border-radius: 14px;
-  
-}
-.section-item {
-}
-.reviews-s-item-wrap {
+  border-radius: 14px;  
 }
 .reviews-s-item-title-wrap{
   margin-bottom: 24px;
@@ -592,14 +576,6 @@ font-weight: 700;
 .reviews-s-item-title-wrap p{ 
   color: #6B6423;
   font-size: 18px;
-}
-.reviews-s-item-title {
-}
-.title-item-h4 {
-}
-.reviews-s-item-text {
-}
-.text-item {
 }
 .reviews-s-item-img{
   justify-content: end;
@@ -614,8 +590,7 @@ font-weight: 700;
   width: 1300px;
   margin-bottom: 16px;
 }
-.section-item {
-}
+
 .question-s-item-title-wrap { 
 padding: 24px 36px;
 border-radius: 20px;
@@ -642,7 +617,7 @@ background: #FFFCE5;
     color:var(--primary-color);
     justify-content: space-between;
     margin-bottom: 16px;
-    
+    align-items: start;    
   }
   .footer-item1{
     width: 20%;
@@ -660,15 +635,40 @@ background: #FFFCE5;
     padding: 16px 36px;
     margin-bottom: 16px;
   }  
+  .footer-title{
+    margin-bottom: 24px;
+  }
+  .footer-list li{
+    margin-bottom: 24px;
+  }
+  .footer-list{
+    margin-bottom: 54px;
+  }
   .footer-contacts-map{
     width: 100%;
   } 
   .copy{
     color:var(--primary-color);
-font-weight: 500;
-text-transform: uppercase;
-
-justify-content: center;
-gap: 8px;
-align-items: center;
-  }        
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+  }   
+  .footer-title {
+    color:var(--secondary-text-color)
+  }
+  .footer-soс{
+    width: 205px;
+  }
+.footer-title-a{
+  margin-top: 95px;
+}     
+.footer-list-cont li a{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer-list-cont{
+  margin-bottom: 24px;
+}
