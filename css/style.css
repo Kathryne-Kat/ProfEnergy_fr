@@ -368,19 +368,18 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
- color:#B9B9B9;
-  stroke:#B9B9B9;
+  color: #b9b9b9;
+  stroke: #b9b9b9;
   /* stroke="currentColor" */
-
 }
-.swiper-button-prev-hero svg:hover,
+.swiper-button-prev-hero:hover,
 .swiper-button-next-hero:hover,
 .swiper-button-prev-hero:active,
 .swiper-button-next-hero:active {
   background: #ffffff48;
   color: #ffffff;
-  fill:#ffffff;
-  stroke:#ffffff;
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 
 /*-------------------ABOUT-US----------------*/
@@ -998,6 +997,16 @@ padding-right: 10px; */
   }
 }
 @media screen and (max-width: 1200px) {
+  .header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .header-container {
+    padding: 5px 5px;
+    border-radius: none;
+    background: transparent;
+  }
+
   .hero-item {
     width: 420px;
   }
@@ -1040,11 +1049,7 @@ padding-right: 10px; */
     width: 32px;
     height: 32px;
   }
-  .header-container {
-    padding: 24px 0;
-    border-radius: 0;
-    background: transparent;
-  }
+
   .popup-gen {
     width: 85%;
   }
@@ -1063,8 +1068,8 @@ padding-right: 10px; */
   .title-item {
     font-size: 20px;
   }
-  .hero {
-    padding: 50px;
+  .hero-container {
+    padding: 80px 50px 50px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1091,6 +1096,11 @@ padding-right: 10px; */
     margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
+  }
+  .swp-dtn-hero {
+    top: 0px;
+    left: 30px;
+    gap: 20px;
   }
   .about-s-container {
     gap: 24px;
@@ -1168,6 +1178,23 @@ padding-right: 10px; */
     padding-left: 0;
     padding-right: 0;
   }
+    .hero-container {
+    padding: 80px 10px 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-title{
+/* width: 500px; */
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+  }
+  .hero-subtitle{
+/* width: 350px; */
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+  }
   .header-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -1175,6 +1202,7 @@ padding-right: 10px; */
   .hero-title {
     font-size: 32px;
   }
+
   .sw-hidden-serw-desk {
     display: none;
   }
